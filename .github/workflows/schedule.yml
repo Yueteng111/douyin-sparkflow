@@ -9,8 +9,7 @@ on:
         default: false
         type: boolean
   schedule:
-    - cron: "0 2 * * *" # 10:00 Asia/Shanghai
-
+    - cron: "30 16 * * *" # 00:30 Asia/Shanghai
 permissions:
   contents: read
 
