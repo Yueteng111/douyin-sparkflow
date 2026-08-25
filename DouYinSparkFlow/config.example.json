@@ -21,11 +21,11 @@
     ]
   },
   "dailySendWindow": {
-    "enabled": true,
-    "startHour": 10,
-    "endHour": 18,
-    "scheduleIntervalMinutes": 20
-  },
+  "enabled": true,
+  "startHour": 0,
+  "endHour": 2,
+  "scheduleIntervalMinutes": 20
+},
   "hitokotoTypes": [
     "文学",
     "影视",
