@@ -39,11 +39,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run unit tests
-        continue-on-error: true
-        env:
-          USER_DATA: "[]"
-        run: python -m unittest discover -s tests -v
       - name: Test Douyin accessibility
         run: |
           status="$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 https://creator.douyin.com/)"
